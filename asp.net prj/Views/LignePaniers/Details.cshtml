@@ -1,0 +1,50 @@
+﻿@model mvc_gog.Models.LignePanier
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+
+
+                    <h1>Details</h1>
+                    <hr />
+                    <div>
+
+
+                        <dl class="row">
+                            <dt class="col-sm-6">
+                                @Html.DisplayNameFor(model => model.NbreArticle)
+                            </dt>
+                            <dd class="col-sm-6">
+                                @Html.DisplayFor(model => model.NbreArticle)
+                            </dd>
+                            <dt class="col-sm-6">
+                                @Html.DisplayNameFor(model => model.Total)
+                            </dt>
+                            <dd class="col-sm-6">
+                                @Html.DisplayFor(model => model.Total)
+                            </dd>
+                            <dt class="col-sm-6">
+                                @Html.DisplayNameFor(model => model.produit)
+                            </dt>
+                            <dd class="col-sm-6">
+                                @Html.DisplayFor(model => model.produit.ProduitID)
+                            </dd>
+                        </dl>
+                    </div>
+                    <div>
+                        <a asp-action="Edit" asp-route-id="@Model?.LignePanierID" class="btn btn-warning">Edit</a> |
+                        <a asp-controller="Paniers" asp-action="Index"><input type="button" class="btn btn-dark" value="Back to List" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

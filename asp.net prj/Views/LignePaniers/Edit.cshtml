@@ -1,0 +1,47 @@
+﻿@model mvc_gog.Models.LignePanier
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="form-body">
+    <div class="row">
+        <div class="form-holder">
+            <div class="form-content">
+                <div class="form-items">
+                    <h1>EDIT</h1>
+                    <hr />
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <input type="hidden" asp-for="LignePanierID" />
+
+
+                        <div class="form-group">
+                            <label asp-for="NbreArticle" class="control-label"></label>
+                            <input asp-for="NbreArticle" class="form-control" />
+                            <span asp-validation-for="NbreArticle" class="text-danger"></span>
+                        </div>
+                        <div class="form-button mt-3">
+
+                            <div>
+                                <a asp-route-id="@Model.LignePanierID"> <input type="submit" value="Save" class="btn btn-success" /></a> |
+                                <a asp-action="Delete" asp-route-id="@Model.LignePanierID"> <input type="button" class="btn btn-danger" value="Delete"></a> |
+                                <a asp-controller="Paniers" asp-action="Index"> <input type="button" class="btn btn-dark" value="Back to List" /></a>
+                            </div>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            @section Scripts {
+                @{
+                    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+                }
+            }
+        </div>
+    </div>
+</div>
+
+
