@@ -83,7 +83,7 @@ nav {
     }
 
         .menu ul li a:hover {
-            background-image: linear-gradient(to right, #3f8cd6, #38deec);
+            background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
             color: #000;
         }
 
@@ -103,7 +103,7 @@ nav {
 }
 
     .NavBtns button:hover {
-        background-image: linear-gradient(to right, #3f8cd6, #38deec);
+        background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
         color: #000;
     }
 
@@ -151,7 +151,7 @@ nav {
         cursor: pointer;
         outline: none;
         transition: all 0.3s ease;
-        background-image: linear-gradient(to right, #3f8cd6, #38deec);
+        background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
         color: #000;
     }
 
@@ -186,7 +186,7 @@ nav {
     outline: none;
     transition: all 0.3s ease;
     color: #ffffff;
-    background-image: linear-gradient(to right, #3f8cd6, #38deec);
+    background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
     border: none;
 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c1dXhnbyduMHIGK95oVxOTo7YK0XiXbYatDqRYtjLw0vyWLvwtqQz544a74mfz8ci3ERB5+KzMZOQXdNRKln+A==",
+  "dgSpecHash": "iu5VnQt99yZ7DP1zsPCBa2Y9uyeL4VRyPS4vmWx9yYH7B3zKmeAlYPpsLEd8p/5zLdntb25b/3qFR324iq8s/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\inass\\Downloads\\Galaxy-of-Games-master (1)\\Galaxy-of-Games-master\\mvc gog\\mvc gog.csproj",
+  "projectFilePath": "C:\\Users\\inass\\Desktop\\asp.net\\asp.net prj\\mvc gog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\inass\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\inass\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

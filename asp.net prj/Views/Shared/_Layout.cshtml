@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - GOD of GAMES </title>
+    <title>@ViewData["Title"] - Calista </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -37,11 +37,7 @@
                     <i class="fas fa-bars"></i>
                 </label>
                 <ul>
-                    <li>
-                        <div class="MobNavBtns">
-                            <button>Play Now</button>
-                        </div>
-                    </li>
+                    
 
 
                     @if (User.Identity.IsAuthenticated)
@@ -49,30 +45,30 @@
                         @if (User.IsInRole("admin"))
                         {
 
-                            <li> <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="Index">Games</a></li>
-                            <li> <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="Create">add Games</a></li>        
+                            <li> <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="Index">Produits</a></li>
+                            <li> <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="Create">ajouter produit</a></li>        
 
-                            <li> <a class="nav-link " asp-area="" asp-controller="Users" asp-action="Index">Users</a></li>
-                            <li> <a class="nav-link " asp-area="" asp-controller="Users" asp-action="Create">add Users</a></li>
+                            <li> <a class="nav-link " asp-area="" asp-controller="Users" asp-action="Index">Utilisateur</a></li>
+                            <li> <a class="nav-link " asp-area="" asp-controller="Users" asp-action="Create">Créer Utilisateur</a></li>
 
-                            <li> <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Carts</a></li>
+                            <li> <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Paniers</a></li>
                             
 
                            @* <li> <a class="nav-link " asp-area="" asp-controller="LignePaniers" asp-action="Index"> cart lists</a></li> *@
                                 
                            //   /**/  """  """  @**@  <!---->  #  {/* */}
 
-                            <li class="LOGOUTbtns"> <button><a class="nav-link" asp-area="" asp-controller="Users" asp-action="Logout"> Logout </a></button> </li>
+                            <li class="LOGOUTbtns"> <button><a class="nav-link" asp-area="" asp-controller="Users" asp-action="Logout"> Déconnexion </a></button> </li>
 
 
                         }
                         @if (User.IsInRole("user"))
                         {
 
-                            <li> <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="List">Games</a></li>
-                            <li> <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Cart</a></li>
+                            <li> <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="List">Produits</a></li>
+                            <li> <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Panier</a></li>
 
-                            <li class="LOGOUTbtns"> <button><a class="nav-link" asp-area="" asp-controller="Users" asp-action="Logout"> Logout </a></button> </li>
+                            <li class="LOGOUTbtns"> <button><a class="nav-link" asp-area="" asp-controller="Users" asp-action="Logout"> Déconnexion </a></button> </li>
 
                         }
                     }
@@ -106,10 +102,10 @@
 
         <div class="footer-right">
 
-            <a href="https://yahya.rabii.me/"><i class="fa fa-globe"></i></a>
-            <a href="https://twitter.com/_NOXIDEUS_"><i class="fa fa-twitter"></i></a>
-            <a href="https://github.com/Yahya-rabii"><i class="fa fa-github"></i></a>
-            <a href=“tel:+212701242563”><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-github"></i></a>
+            <a href="#"><i class="fa fa-phone"></i></a>
         </div>
 
         <div class="footer-left">
@@ -120,9 +116,9 @@
                 {
                     <p class="footer-links">
 
-                        <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Carts</a>
-                        <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="Index">Games</a>
-                        <a class="nav-link " asp-area="" asp-controller="Users" asp-action="Index">Users</a>
+                        <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Paniers</a>
+                        <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="Index">Produits</a>
+                        <a class="nav-link " asp-area="" asp-controller="Users" asp-action="Index">Utilisateurs</a>
 
 
                     </p>
@@ -130,13 +126,13 @@
                 else
                 {
                     <p class="footer-links">
-                    <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Carts</a>
-                    <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="List">Games</a>
+                    <a class="nav-link " asp-area="" asp-controller="Paniers" asp-action="Index">Panier</a>
+                    <a class="nav-link " asp-area="" asp-controller="Produits" asp-action="List">Produits</a>
                     </p>
 
                 }
             }
-            <p>NOXIDEUS &copy; 2023</p>
+            <p>Inass-hejjaj &copy; 2023</p>
         </div>
 
     </footer>

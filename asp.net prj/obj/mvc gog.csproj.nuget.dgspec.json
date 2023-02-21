@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\inass\\Downloads\\Galaxy-of-Games-master (1)\\Galaxy-of-Games-master\\mvc gog\\mvc gog.csproj": {}
+    "C:\\Users\\inass\\Desktop\\asp.net\\asp.net prj\\mvc gog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\inass\\Downloads\\Galaxy-of-Games-master (1)\\Galaxy-of-Games-master\\mvc gog\\mvc gog.csproj": {
+    "C:\\Users\\inass\\Desktop\\asp.net\\asp.net prj\\mvc gog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\inass\\Downloads\\Galaxy-of-Games-master (1)\\Galaxy-of-Games-master\\mvc gog\\mvc gog.csproj",
+        "projectUniqueName": "C:\\Users\\inass\\Desktop\\asp.net\\asp.net prj\\mvc gog.csproj",
         "projectName": "mvc gog",
-        "projectPath": "C:\\Users\\inass\\Downloads\\Galaxy-of-Games-master (1)\\Galaxy-of-Games-master\\mvc gog\\mvc gog.csproj",
+        "projectPath": "C:\\Users\\inass\\Desktop\\asp.net\\asp.net prj\\mvc gog.csproj",
         "packagesPath": "C:\\Users\\inass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\inass\\Downloads\\Galaxy-of-Games-master (1)\\Galaxy-of-Games-master\\mvc gog\\obj\\",
+        "outputPath": "C:\\Users\\inass\\Desktop\\asp.net\\asp.net prj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\inass\\AppData\\Roaming\\NuGet\\NuGet.Config",

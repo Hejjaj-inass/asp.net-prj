@@ -117,11 +117,11 @@
         background: transparent;
     }
 
-    
-    .LOGOUTbtns button:hover {
-        background-image: linear-gradient(to right, #3f8cd6, #38deec);
-        color: #000;
-    }
+
+        .LOGOUTbtns button:hover {
+            background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
+            color: #000;
+        }
 
 
 
@@ -156,10 +156,10 @@
 }
 
 
-        .LOGINbtns button:hover {
-            background-image: linear-gradient(to right, #3f8cd6, #38deec);
-            color: #000;
-        }
+    .LOGINbtns button:hover {
+        background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
+        color: #000;
+    }
 
 
 
@@ -184,7 +184,7 @@
     background: transparent;
 }
     .mybtn:hover {
-        background-image: linear-gradient(to right, #3f8cd6, #38deec);
+        background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
         color: #000;
     }
 
@@ -208,6 +208,6 @@
 }
 
     .mybtnre:hover {
-        background-image: linear-gradient(to right, #3f8cd6, #38deec);
+        background-image: linear-gradient(to right, #FFC0CB, #FFB6C1);
         color: #000;
     }
